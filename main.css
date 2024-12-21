@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+/* HEADER NAVBAR */
+#navbar {
+  background-color: #4d636f;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  width: 10%;
+}
+.nav-right {
+  width: 10%;
+}
+#menu ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.menu-list a {
+  color: #fff;
+}
+#menu #profile-img img {
+  border-radius: 50%;
+}
+/* My Profile Section */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.card-image {
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid silver;
+  padding-bottom: 1px;
+}
+.card-img-top {
+  border-radius: 50%;
+}
+.card-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+}
+/* My Sections */
+.my-section {
+  display: flex;
+  flex-direction: column;
+}
+.my-section button {
+  display: flex;
+  align-items: center;
+}
+.my-section button i {
+  margin-left: 0.5rem;
+  margin-right: 0.75rem;
+}
+.my-section .btn {
+  border-radius: 0;
+}
+.my-section button p {
+  margin-bottom: 0;
+}
+/* TAGS */
+.tags span {
+  display: inline-block;
+}
+/* POST SECTION */
+.alert-box {
+  position: relative;
+}
+.alert-box p {
+  color: #fff;
+}
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ddd;
+  padding: 0.5rem;
+}
+.post-box {
+  border: 1px solid silver;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.post-text {
+  padding: 0.5rem;
+  border: 1px solid silver;
+}
+.btn {
+  border-radius: 0;
+}
+.avatar {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+.post-header span {
+  position: absolute;
+  top: 0.15rem;
+  right: 0.4rem;
+}
+.post-description {
+  opacity: 0.7;
+}
+.img-box {
+  padding: 3px;
+}
+.img-box img {
+  width: 100%;
+}
+/* RIGHT SIDEBAR */
+.event-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid silver;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.event-card button {
+  align-self: stretch;
+}
+.btn-group {
+  width: 100%;
+}
+.avatar-box {
+  width: 100%;
+}
+/* FOOTER */
+.footer {
+  background-color: #4d636f;
+  color: #fff;
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+}
+.sub-footer {
+  background-color: #303e45;
+  color: #fff;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+}
